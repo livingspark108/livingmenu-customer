@@ -1,0 +1,694 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.livingspark.living_menu_mobile"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:3:5-67
+15-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:3:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:4:5-79
+16-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:4:22-76
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:5:5-65
+17-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:5:22-62
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:6:5-78
+18-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:6:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:7:5-80
+19-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:7:22-78
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+20-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:8:5-84
+20-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:8:22-82
+21    <!--
+22 Required to query activities that can process text, see:
+23         https://developer.android.com/training/package-visibility?hl=en and
+24         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+25
+26         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+27    -->
+28    <queries>
+28-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:52:5-57:15
+29        <intent>
+29-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:53:9-56:18
+30            <action android:name="android.intent.action.PROCESS_TEXT" />
+30-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:54:13-72
+30-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:54:21-70
+31
+32            <data android:mimeType="text/plain" />
+32-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:55:13-50
+32-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:55:19-48
+33        </intent>
+34        <intent>
+34-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:11:9-17:18
+35            <action android:name="android.intent.action.VIEW" />
+35-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:12:13-65
+35-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:12:21-62
+36
+37            <data
+37-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:55:13-50
+38                android:mimeType="*/*"
+38-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:55:19-48
+39                android:scheme="*" />
+40        </intent>
+41        <intent>
+41-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:18:9-27:18
+42            <action android:name="android.intent.action.VIEW" />
+42-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:12:13-65
+42-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:12:21-62
+43
+44            <category android:name="android.intent.category.BROWSABLE" />
+44-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:21:13-74
+44-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:21:23-71
+45
+46            <data
+46-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:55:13-50
+47                android:host="pay"
+48                android:mimeType="*/*"
+48-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:55:19-48
+49                android:scheme="upi" />
+50        </intent>
+51        <intent>
+51-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:28:9-30:18
+52            <action android:name="android.intent.action.MAIN" />
+52-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:29:13-65
+52-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:29:21-62
+53        </intent>
+54        <intent>
+54-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:31:9-35:18
+55            <action android:name="android.intent.action.SEND" />
+55-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:32:13-65
+55-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:32:21-62
+56
+57            <data android:mimeType="*/*" />
+57-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:55:13-50
+57-->/Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:55:19-48
+58        </intent>
+59        <intent>
+59-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:36:9-38:18
+60            <action android:name="rzp.device_token.share" />
+60-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:37:13-61
+60-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:37:21-58
+61        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+62        <package android:name="com.google.android.apps.maps" />
+62-->[com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/340bf79ac2edd33f3cbd9f593f06a2e7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+62-->[com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/340bf79ac2edd33f3cbd9f593f06a2e7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+63    </queries>
+64
+65    <uses-feature
+65-->[:mobile_scanner] /Users/livingspark/Downloads/LivingMenuMobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-11:36
+66        android:name="android.hardware.camera"
+66-->[:mobile_scanner] /Users/livingspark/Downloads/LivingMenuMobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-47
+67        android:required="false" />
+67-->[:mobile_scanner] /Users/livingspark/Downloads/LivingMenuMobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-33
+68
+69    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions options for the `notification` group -->
+69-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+69-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
+70    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+70-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-77
+70-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-74
+71    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+71-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:26:5-82
+71-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:26:22-79
+72    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+72-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ed44783566727ffffe87ac1b7746efff/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:25:5-79
+72-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ed44783566727ffffe87ac1b7746efff/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:25:22-76
+73    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+73-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ed44783566727ffffe87ac1b7746efff/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:26:5-88
+73-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ed44783566727ffffe87ac1b7746efff/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:26:22-85
+74    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+74-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ed44783566727ffffe87ac1b7746efff/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:27:5-82
+74-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ed44783566727ffffe87ac1b7746efff/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:27:22-79
+75
+76    <uses-feature
+76-->[com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/340bf79ac2edd33f3cbd9f593f06a2e7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+77        android:glEsVersion="0x00020000"
+77-->[com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/340bf79ac2edd33f3cbd9f593f06a2e7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+78        android:required="true" />
+78-->[com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/340bf79ac2edd33f3cbd9f593f06a2e7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+79
+80    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+80-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/7bfa59bab35883e95312a66ad56f226a/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:26:5-110
+80-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/7bfa59bab35883e95312a66ad56f226a/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:26:22-107
+81
+82    <permission
+82-->[androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/aa5e22b97c9c36d4356d09776a69d17b/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+83        android:name="com.livingspark.living_menu_mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+83-->[androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/aa5e22b97c9c36d4356d09776a69d17b/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+84        android:protectionLevel="signature" />
+84-->[androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/aa5e22b97c9c36d4356d09776a69d17b/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+85
+86    <uses-permission android:name="com.livingspark.living_menu_mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+86-->[androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/aa5e22b97c9c36d4356d09776a69d17b/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+86-->[androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/aa5e22b97c9c36d4356d09776a69d17b/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+87
+88    <application
+89        android:name="android.app.Application"
+90        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+90-->[androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/aa5e22b97c9c36d4356d09776a69d17b/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+91        android:debuggable="true"
+92        android:extractNativeLibs="false"
+93        android:icon="@mipmap/ic_launcher"
+94        android:label="living_menu_mobile" >
+95        <activity
+96            android:name="com.livingspark.living_menu_mobile.MainActivity"
+97            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+98            android:enableOnBackInvokedCallback="true"
+99            android:exported="true"
+100            android:hardwareAccelerated="true"
+101            android:launchMode="singleTop"
+102            android:theme="@style/LaunchTheme"
+103            android:windowSoftInputMode="adjustResize" >
+104
+105            <!--
+106                 Specifies an Android theme to apply to this Activity as soon as
+107                 the Android process has started. This theme is visible to the user
+108                 while the Flutter UI initializes. After that, this theme continues
+109                 to determine the Window background behind the Flutter UI.
+110            -->
+111            <meta-data
+112                android:name="io.flutter.embedding.android.NormalTheme"
+113                android:resource="@style/NormalTheme" />
+114
+115            <intent-filter>
+116                <action android:name="android.intent.action.MAIN" />
+116-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:29:13-65
+116-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:29:21-62
+117
+118                <category android:name="android.intent.category.LAUNCHER" />
+119            </intent-filter>
+120        </activity>
+121        <!--
+122             Don't delete the meta-data below.
+123             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+124        -->
+125        <meta-data
+126            android:name="flutterEmbedding"
+127            android:value="2" />
+128        <meta-data
+129            android:name="com.google.android.geo.API_KEY"
+130            android:value="AIzaSyDXPhCvWthejvwJXy9pKfxLI3XprroHjzA" />
+131
+132        <service
+132-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-17:72
+133            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+133-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-107
+134            android:exported="false"
+134-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+135            android:permission="android.permission.BIND_JOB_SERVICE" />
+135-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-69
+136        <service
+136-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-24:19
+137            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+137-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-97
+138            android:exported="false" >
+138-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-37
+139            <intent-filter>
+139-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:29
+140                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+140-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-78
+140-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-75
+141            </intent-filter>
+142        </service>
+143
+144        <receiver
+144-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-33:20
+145            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+145-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-98
+146            android:exported="true"
+146-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-36
+147            android:permission="com.google.android.c2dm.permission.SEND" >
+147-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-73
+148            <intent-filter>
+148-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-32:29
+149                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+149-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-81
+149-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-78
+150            </intent-filter>
+151        </receiver>
+152
+153        <service
+153-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-39:19
+154            android:name="com.google.firebase.components.ComponentDiscoveryService"
+154-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:35:18-89
+155            android:directBootAware="true"
+155-->[com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/187eefce54b3cf3488114a0ac37b56d2/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+156            android:exported="false" >
+156-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:56:13-37
+157            <meta-data
+157-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-38:85
+158                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+158-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:37:17-128
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:38:17-82
+160            <meta-data
+160-->[:firebase_core] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+161                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+161-->[:firebase_core] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[:firebase_core] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:57:13-59:85
+164                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+164-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:58:17-122
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:59:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:60:13-62:85
+167                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+167-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:61:17-119
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:62:17-82
+169            <meta-data
+169-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ed44783566727ffffe87ac1b7746efff/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:37:13-39:85
+170                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+170-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ed44783566727ffffe87ac1b7746efff/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:38:17-139
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ed44783566727ffffe87ac1b7746efff/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:39:17-82
+172            <meta-data
+172-->[com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/4731ac933c05fbd8844b70cdbecea74a/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+173                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+173-->[com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/4731ac933c05fbd8844b70cdbecea74a/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/4731ac933c05fbd8844b70cdbecea74a/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+175            <meta-data
+175-->[com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/4731ac933c05fbd8844b70cdbecea74a/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+176                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+176-->[com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/4731ac933c05fbd8844b70cdbecea74a/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/4731ac933c05fbd8844b70cdbecea74a/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+178            <meta-data
+178-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/80add876cc03c2142a90e948efc70a69/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+179                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+179-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/80add876cc03c2142a90e948efc70a69/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/80add876cc03c2142a90e948efc70a69/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+181            <meta-data
+181-->[com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/187eefce54b3cf3488114a0ac37b56d2/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+182                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+182-->[com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/187eefce54b3cf3488114a0ac37b56d2/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/187eefce54b3cf3488114a0ac37b56d2/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+184            <meta-data
+184-->[com.google.firebase:firebase-datatransport:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/c2cfd60e24247a49083e2c8699db3aec/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:25:13-27:85
+185                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+185-->[com.google.firebase:firebase-datatransport:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/c2cfd60e24247a49083e2c8699db3aec/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:26:17-115
+186                android:value="com.google.firebase.components.ComponentRegistrar" />
+186-->[com.google.firebase:firebase-datatransport:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/c2cfd60e24247a49083e2c8699db3aec/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:27:17-82
+187        </service>
+188
+189        <provider
+189-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:41:9-45:38
+190            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+190-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-102
+191            android:authorities="com.livingspark.living_menu_mobile.flutterfirebasemessaginginitprovider"
+191-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-88
+192            android:exported="false"
+192-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-37
+193            android:initOrder="99" />
+193-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-35
+194
+195        <receiver
+195-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:29:9-40:20
+196            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+196-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:30:13-78
+197            android:exported="true"
+197-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:31:13-36
+198            android:permission="com.google.android.c2dm.permission.SEND" >
+198-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:32:13-73
+199            <intent-filter>
+199-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-32:29
+200                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+200-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-81
+200-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-78
+201            </intent-filter>
+202
+203            <meta-data
+203-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:37:13-39:40
+204                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+204-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:38:17-92
+205                android:value="true" />
+205-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:39:17-37
+206        </receiver>
+207        <!--
+208             FirebaseMessagingService performs security checks at runtime,
+209             but set to not exported to explicitly avoid allowing another app to call it.
+210        -->
+211        <service
+211-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:46:9-53:19
+212            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+212-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:47:13-82
+213            android:directBootAware="true"
+213-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:48:13-43
+214            android:exported="false" >
+214-->[com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/66c16e695cc088b48a9285ac3df38d02/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:49:13-37
+215            <intent-filter android:priority="-500" >
+215-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:29
+216                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+216-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-78
+216-->[:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-75
+217            </intent-filter>
+218        </service>
+219
+220        <property
+220-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ed44783566727ffffe87ac1b7746efff/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:30:9-32:61
+221            android:name="android.adservices.AD_SERVICES_CONFIG"
+221-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ed44783566727ffffe87ac1b7746efff/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:31:13-65
+222            android:resource="@xml/ga_ad_services_config" />
+222-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ed44783566727ffffe87ac1b7746efff/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:32:13-58
+223
+224        <provider
+224-->[com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/187eefce54b3cf3488114a0ac37b56d2/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+225            android:name="com.google.firebase.provider.FirebaseInitProvider"
+225-->[com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/187eefce54b3cf3488114a0ac37b56d2/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+226            android:authorities="com.livingspark.living_menu_mobile.firebaseinitprovider"
+226-->[com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/187eefce54b3cf3488114a0ac37b56d2/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+227            android:directBootAware="true"
+227-->[com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/187eefce54b3cf3488114a0ac37b56d2/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+228            android:exported="false"
+228-->[com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/187eefce54b3cf3488114a0ac37b56d2/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+229            android:initOrder="100" />
+229-->[com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/187eefce54b3cf3488114a0ac37b56d2/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+230
+231        <receiver
+231-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:42:9-49:20
+232            android:name="com.razorpay.RzpTokenReceiver"
+232-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:43:13-57
+233            android:exported="true" >
+233-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:44:13-36
+234            <intent-filter>
+234-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:46:13-48:29
+235                <action android:name="rzp.device_token.share" />
+235-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:37:13-61
+235-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:37:21-58
+236            </intent-filter>
+237        </receiver>
+238
+239        <activity
+239-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:51:9-59:20
+240            android:name="com.razorpay.CheckoutActivity"
+240-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:52:13-57
+241            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+241-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:53:13-83
+242            android:exported="false"
+242-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:54:13-37
+243            android:theme="@style/CheckoutTheme" >
+243-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:55:13-49
+244            <intent-filter>
+244-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:56:13-58:29
+245                <action android:name="android.intent.action.MAIN" />
+245-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:29:13-65
+245-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:29:21-62
+246            </intent-filter>
+247        </activity>
+248
+249        <provider
+249-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:61:9-69:20
+250            android:name="androidx.startup.InitializationProvider"
+250-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:62:13-67
+251            android:authorities="com.livingspark.living_menu_mobile.androidx-startup"
+251-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:63:13-68
+252            android:exported="false" >
+252-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:64:13-37
+253            <meta-data
+253-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:66:13-68:52
+254                android:name="com.razorpay.RazorpayInitializer"
+254-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:67:17-64
+255                android:value="androidx.startup" />
+255-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:68:17-49
+256            <meta-data
+256-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/47308aeee6c4149e5bbba71448e24e26/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+257                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+257-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/47308aeee6c4149e5bbba71448e24e26/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+258                android:value="androidx.startup" />
+258-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/47308aeee6c4149e5bbba71448e24e26/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+259            <meta-data
+259-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+260                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+260-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+261                android:value="androidx.startup" />
+261-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+262        </provider>
+263
+264        <activity
+264-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:71:9-74:75
+265            android:name="com.razorpay.MagicXActivity"
+265-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:72:13-55
+266            android:exported="false"
+266-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:73:13-37
+267            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+267-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:74:13-72
+268
+269        <meta-data
+269-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:76:9-78:58
+270            android:name="com.razorpay.plugin.googlepay_all"
+270-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:77:13-61
+271            android:value="com.razorpay.RzpGpayMerged" />
+271-->[com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/094ebf0d498c0a73edfaead662ed15da/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:78:13-55
+272
+273        <service
+273-->[:geolocator_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:56
+274            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+274-->[:geolocator_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-77
+275            android:enabled="true"
+275-->[:geolocator_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-35
+276            android:exported="false"
+276-->[:geolocator_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+277            android:foregroundServiceType="location" />
+277-->[:geolocator_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-53
+278        <!--
+279        Service for holding metadata. Cannot be instantiated.
+280        Metadata will be merged from other manifests.
+281        -->
+282        <service
+282-->[androidx.camera:camera-core:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/e214ba479d60e4917694ce945cd12ab7/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:29:9-33:78
+283            android:name="androidx.camera.core.impl.MetadataHolderService"
+283-->[androidx.camera:camera-core:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/e214ba479d60e4917694ce945cd12ab7/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:30:13-75
+284            android:enabled="false"
+284-->[androidx.camera:camera-core:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/e214ba479d60e4917694ce945cd12ab7/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:31:13-36
+285            android:exported="false" >
+285-->[androidx.camera:camera-core:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/e214ba479d60e4917694ce945cd12ab7/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:32:13-37
+286            <meta-data
+286-->[androidx.camera:camera-camera2:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/58413a851896f2570b4917c70fee8929/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:30:13-32:89
+287                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+287-->[androidx.camera:camera-camera2:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/58413a851896f2570b4917c70fee8929/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:31:17-103
+288                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+288-->[androidx.camera:camera-camera2:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/58413a851896f2570b4917c70fee8929/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:32:17-86
+289        </service>
+290
+291        <uses-library
+291-->[androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/37032f47800d60d7f775935ef389203e/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+292            android:name="androidx.window.extensions"
+292-->[androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/37032f47800d60d7f775935ef389203e/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+293            android:required="false" />
+293-->[androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/37032f47800d60d7f775935ef389203e/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+294        <uses-library
+294-->[androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/37032f47800d60d7f775935ef389203e/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+295            android:name="androidx.window.sidecar"
+295-->[androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/37032f47800d60d7f775935ef389203e/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+296            android:required="false" />
+296-->[androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/37032f47800d60d7f775935ef389203e/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+297
+298        <service
+298-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/12d08d319fbe3b9d6c0f402f80781150/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:9:9-15:19
+299            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+299-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/12d08d319fbe3b9d6c0f402f80781150/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:10:13-91
+300            android:directBootAware="true"
+300-->[com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/8aedc47d2c52258ebaa7cfa219a69680/transformed/jetified-common-18.9.0/AndroidManifest.xml:17:13-43
+301            android:exported="false" >
+301-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/12d08d319fbe3b9d6c0f402f80781150/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:11:13-37
+302            <meta-data
+302-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/12d08d319fbe3b9d6c0f402f80781150/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:12:13-14:85
+303                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+303-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/12d08d319fbe3b9d6c0f402f80781150/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:13:17-120
+304                android:value="com.google.firebase.components.ComponentRegistrar" />
+304-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/12d08d319fbe3b9d6c0f402f80781150/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:14:17-82
+305            <meta-data
+305-->[com.google.mlkit:vision-common:17.3.0] /Users/livingspark/.gradle/caches/transforms-3/ade7360b047ef5d1f3fbad47d15d7914/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+306                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+306-->[com.google.mlkit:vision-common:17.3.0] /Users/livingspark/.gradle/caches/transforms-3/ade7360b047ef5d1f3fbad47d15d7914/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
+307                android:value="com.google.firebase.components.ComponentRegistrar" />
+307-->[com.google.mlkit:vision-common:17.3.0] /Users/livingspark/.gradle/caches/transforms-3/ade7360b047ef5d1f3fbad47d15d7914/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
+308            <meta-data
+308-->[com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/8aedc47d2c52258ebaa7cfa219a69680/transformed/jetified-common-18.9.0/AndroidManifest.xml:20:13-22:85
+309                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+309-->[com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/8aedc47d2c52258ebaa7cfa219a69680/transformed/jetified-common-18.9.0/AndroidManifest.xml:21:17-120
+310                android:value="com.google.firebase.components.ComponentRegistrar" />
+310-->[com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/8aedc47d2c52258ebaa7cfa219a69680/transformed/jetified-common-18.9.0/AndroidManifest.xml:22:17-82
+311        </service>
+312
+313        <provider
+313-->[com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/8aedc47d2c52258ebaa7cfa219a69680/transformed/jetified-common-18.9.0/AndroidManifest.xml:9:9-13:38
+314            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+314-->[com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/8aedc47d2c52258ebaa7cfa219a69680/transformed/jetified-common-18.9.0/AndroidManifest.xml:10:13-78
+315            android:authorities="com.livingspark.living_menu_mobile.mlkitinitprovider"
+315-->[com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/8aedc47d2c52258ebaa7cfa219a69680/transformed/jetified-common-18.9.0/AndroidManifest.xml:11:13-69
+316            android:exported="false"
+316-->[com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/8aedc47d2c52258ebaa7cfa219a69680/transformed/jetified-common-18.9.0/AndroidManifest.xml:12:13-37
+317            android:initOrder="99" /> <!-- Needs to be explicitly declared on P+ -->
+317-->[com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/8aedc47d2c52258ebaa7cfa219a69680/transformed/jetified-common-18.9.0/AndroidManifest.xml:13:13-35
+318        <uses-library
+318-->[com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/340bf79ac2edd33f3cbd9f593f06a2e7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+319            android:name="org.apache.http.legacy"
+319-->[com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/340bf79ac2edd33f3cbd9f593f06a2e7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+320            android:required="false" />
+320-->[com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/340bf79ac2edd33f3cbd9f593f06a2e7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+321
+322        <receiver
+322-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/7bfa59bab35883e95312a66ad56f226a/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:29:9-33:20
+323            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+323-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/7bfa59bab35883e95312a66ad56f226a/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:30:13-85
+324            android:enabled="true"
+324-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/7bfa59bab35883e95312a66ad56f226a/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:31:13-35
+325            android:exported="false" >
+325-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/7bfa59bab35883e95312a66ad56f226a/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:32:13-37
+326        </receiver>
+327
+328        <service
+328-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/7bfa59bab35883e95312a66ad56f226a/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:35:9-38:40
+329            android:name="com.google.android.gms.measurement.AppMeasurementService"
+329-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/7bfa59bab35883e95312a66ad56f226a/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:36:13-84
+330            android:enabled="true"
+330-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/7bfa59bab35883e95312a66ad56f226a/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:37:13-35
+331            android:exported="false" />
+331-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/7bfa59bab35883e95312a66ad56f226a/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:38:13-37
+332        <service
+332-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/7bfa59bab35883e95312a66ad56f226a/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:39:9-43:72
+333            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+333-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/7bfa59bab35883e95312a66ad56f226a/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:40:13-87
+334            android:enabled="true"
+334-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/7bfa59bab35883e95312a66ad56f226a/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:41:13-35
+335            android:exported="false"
+335-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/7bfa59bab35883e95312a66ad56f226a/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:42:13-37
+336            android:permission="android.permission.BIND_JOB_SERVICE" />
+336-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/7bfa59bab35883e95312a66ad56f226a/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:43:13-69
+337
+338        <activity
+338-->[com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/c3a0cc42bb2726cadf66db5a2db059a7/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:23:9-27:75
+339            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+339-->[com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/c3a0cc42bb2726cadf66db5a2db059a7/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:24:13-93
+340            android:excludeFromRecents="true"
+340-->[com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/c3a0cc42bb2726cadf66db5a2db059a7/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:25:13-46
+341            android:exported="false"
+341-->[com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/c3a0cc42bb2726cadf66db5a2db059a7/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:26:13-37
+342            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+342-->[com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/c3a0cc42bb2726cadf66db5a2db059a7/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:27:13-72
+343        <!--
+344            Service handling Google Sign-In user revocation. For apps that do not integrate with
+345            Google Sign-In, this service will never be started.
+346        -->
+347        <service
+347-->[com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/c3a0cc42bb2726cadf66db5a2db059a7/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:33:9-37:51
+348            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+348-->[com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/c3a0cc42bb2726cadf66db5a2db059a7/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:34:13-89
+349            android:exported="true"
+349-->[com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/c3a0cc42bb2726cadf66db5a2db059a7/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:35:13-36
+350            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+350-->[com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/c3a0cc42bb2726cadf66db5a2db059a7/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:36:13-107
+351            android:visibleToInstantApps="true" />
+351-->[com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/c3a0cc42bb2726cadf66db5a2db059a7/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:37:13-48
+352
+353        <activity
+353-->[com.google.android.gms:play-services-base:18.5.0] /Users/livingspark/.gradle/caches/transforms-3/3440e94f4ce23275b6169260b3e7e98d/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+354            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+354-->[com.google.android.gms:play-services-base:18.5.0] /Users/livingspark/.gradle/caches/transforms-3/3440e94f4ce23275b6169260b3e7e98d/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+355            android:exported="false"
+355-->[com.google.android.gms:play-services-base:18.5.0] /Users/livingspark/.gradle/caches/transforms-3/3440e94f4ce23275b6169260b3e7e98d/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+356            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+356-->[com.google.android.gms:play-services-base:18.5.0] /Users/livingspark/.gradle/caches/transforms-3/3440e94f4ce23275b6169260b3e7e98d/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+357
+358        <uses-library
+358-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/livingspark/.gradle/caches/transforms-3/76f4fbafb0102df1118422cd38da029b/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+359            android:name="android.ext.adservices"
+359-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/livingspark/.gradle/caches/transforms-3/76f4fbafb0102df1118422cd38da029b/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+360            android:required="false" />
+360-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/livingspark/.gradle/caches/transforms-3/76f4fbafb0102df1118422cd38da029b/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+361
+362        <meta-data
+362-->[com.google.android.gms:play-services-basement:18.4.0] /Users/livingspark/.gradle/caches/transforms-3/f47275229bd39ce42185b1e4e0f52ec7/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+363            android:name="com.google.android.gms.version"
+363-->[com.google.android.gms:play-services-basement:18.4.0] /Users/livingspark/.gradle/caches/transforms-3/f47275229bd39ce42185b1e4e0f52ec7/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+364            android:value="@integer/google_play_services_version" />
+364-->[com.google.android.gms:play-services-basement:18.4.0] /Users/livingspark/.gradle/caches/transforms-3/f47275229bd39ce42185b1e4e0f52ec7/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+365
+366        <receiver
+366-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+367            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+367-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+368            android:directBootAware="false"
+368-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+369            android:enabled="true"
+369-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+370            android:exported="true"
+370-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+371            android:permission="android.permission.DUMP" >
+371-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+372            <intent-filter>
+372-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+373                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+373-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+373-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+374            </intent-filter>
+375            <intent-filter>
+375-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+376                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+376-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+376-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+377            </intent-filter>
+378            <intent-filter>
+378-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+379                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+379-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+379-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+380            </intent-filter>
+381            <intent-filter>
+381-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+382                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+382-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+382-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/be8c3e0b68247dd026400e8f12dee167/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+383            </intent-filter>
+384        </receiver>
+385
+386        <service
+386-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/e78fd845f036c8e2ae90e479007bdce5/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+387            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+387-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/e78fd845f036c8e2ae90e479007bdce5/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+388            android:exported="false" >
+388-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/e78fd845f036c8e2ae90e479007bdce5/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+389            <meta-data
+389-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/e78fd845f036c8e2ae90e479007bdce5/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+390                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+390-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/e78fd845f036c8e2ae90e479007bdce5/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+391                android:value="cct" />
+391-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/e78fd845f036c8e2ae90e479007bdce5/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+392        </service>
+393        <service
+393-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/ee62c130651577f8769202b1eb6f8aba/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+394            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+394-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/ee62c130651577f8769202b1eb6f8aba/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+395            android:exported="false"
+395-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/ee62c130651577f8769202b1eb6f8aba/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+396            android:permission="android.permission.BIND_JOB_SERVICE" >
+396-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/ee62c130651577f8769202b1eb6f8aba/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+397        </service>
+398
+399        <receiver
+399-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/ee62c130651577f8769202b1eb6f8aba/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+400            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+400-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/ee62c130651577f8769202b1eb6f8aba/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+401            android:exported="false" />
+401-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/ee62c130651577f8769202b1eb6f8aba/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+402    </application>
+403
+404</manifest>

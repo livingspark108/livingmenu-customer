@@ -1,0 +1,1202 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:10:5-46:19
+MERGED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-46:19
+MERGED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-46:19
+MERGED from [:firebase_core] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:razorpay_flutter] /Users/livingspark/Downloads/LivingMenuMobile/build/razorpay_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-8:19
+MERGED from [:razorpay_flutter] /Users/livingspark/Downloads/LivingMenuMobile/build/razorpay_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-8:19
+MERGED from [:geolocator_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:geolocator_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ab046347b3bf7f60dc900af80e111011/transformed/jetified-firebase-analytics-22.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ab046347b3bf7f60dc900af80e111011/transformed/jetified-firebase-analytics-22.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/b7046bcc33e191aeabe895edba3dfeec/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/b7046bcc33e191aeabe895edba3dfeec/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:41:5-79:19
+MERGED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:41:5-79:19
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /Users/livingspark/.gradle/caches/transforms-3/0b7282ad6c6c3d7e294c046a65e589bf/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /Users/livingspark/.gradle/caches/transforms-3/0b7282ad6c6c3d7e294c046a65e589bf/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.camera:camera-core:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/6a85c669ca8e5a5ec61b99e6c3690887/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/6a85c669ca8e5a5ec61b99e6c3690887/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/401ad965a11fc0260f22edbc819fed36/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/401ad965a11fc0260f22edbc819fed36/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/4feedd9958428a825358c3bde2515b54/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/4feedd9958428a825358c3bde2515b54/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/75b3afcf7fd2dfaab832beb7e085c1ab/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/75b3afcf7fd2dfaab832beb7e085c1ab/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/livingspark/.gradle/caches/transforms-3/d1c7090ef713c122225776495c2321e0/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/livingspark/.gradle/caches/transforms-3/d1c7090ef713c122225776495c2321e0/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/a585d695a1f6763edb743043748f71c8/transformed/jetified-play-services-measurement-sdk-22.1.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/a585d695a1f6763edb743043748f71c8/transformed/jetified-play-services-measurement-sdk-22.1.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/livingspark/.gradle/caches/transforms-3/09c6ecd32d59a6bd0a4c21ad70def275/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/livingspark/.gradle/caches/transforms-3/09c6ecd32d59a6bd0a4c21ad70def275/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/livingspark/.gradle/caches/transforms-3/f9af72d3aebc943a4300a1453759a252/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/livingspark/.gradle/caches/transforms-3/f9af72d3aebc943a4300a1453759a252/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f928f0a08440d872da9bad2dfcaac5f5/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f928f0a08440d872da9bad2dfcaac5f5/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/livingspark/.gradle/caches/transforms-3/bf778b19e56f24759a2a9720f774ace9/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/livingspark/.gradle/caches/transforms-3/bf778b19e56f24759a2a9720f774ace9/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/a6388d82acd5de3ca878fc6bb5854681/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/a6388d82acd5de3ca878fc6bb5854681/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/68870dc27a48ef0316a6c48db0226d7f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/68870dc27a48ef0316a6c48db0226d7f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f42035582339a3906c1d70b5316c91f2/transformed/jetified-play-services-measurement-base-22.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f42035582339a3906c1d70b5316c91f2/transformed/jetified-play-services-measurement-base-22.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/livingspark/.gradle/caches/transforms-3/0d9fd0cceaa616b92d063fd83c904022/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/livingspark/.gradle/caches/transforms-3/0d9fd0cceaa616b92d063fd83c904022/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] /Users/livingspark/.gradle/caches/transforms-3/7c75a9378b56175f2c5dca330340be72/transformed/jetified-play-services-identity-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] /Users/livingspark/.gradle/caches/transforms-3/7c75a9378b56175f2c5dca330340be72/transformed/jetified-play-services-identity-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/livingspark/.gradle/caches/transforms-3/c4cf85bdbe032577819b291cab511240/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/livingspark/.gradle/caches/transforms-3/c4cf85bdbe032577819b291cab511240/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/livingspark/.gradle/caches/transforms-3/f187479461cac835ccfe78b6d24b1afc/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/livingspark/.gradle/caches/transforms-3/f187479461cac835ccfe78b6d24b1afc/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/8915e9f85064a07ffdd05a9490c5c373/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/8915e9f85064a07ffdd05a9490c5c373/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/livingspark/.gradle/caches/transforms-3/3497cd5283761f633d34a918761a2d8a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/livingspark/.gradle/caches/transforms-3/3497cd5283761f633d34a918761a2d8a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/69612ac5c8748cec822e48caa4c4dcf9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/69612ac5c8748cec822e48caa4c4dcf9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/livingspark/.gradle/caches/transforms-3/8b14a6c5f2b74d25d02b1b5764f61a44/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/livingspark/.gradle/caches/transforms-3/8b14a6c5f2b74d25d02b1b5764f61a44/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/fc5c2d855b4ad7ab5816bd9406a6320a/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/fc5c2d855b4ad7ab5816bd9406a6320a/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/fcbcd00d95813a7905a5d6804834321a/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/fcbcd00d95813a7905a5d6804834321a/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/livingspark/.gradle/caches/transforms-3/56bdc9ead670ae66f8bd8f44be268a7d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/livingspark/.gradle/caches/transforms-3/56bdc9ead670ae66f8bd8f44be268a7d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/livingspark/.gradle/caches/transforms-3/6d3a4ce527c017636ac813e6ab9bcc22/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/livingspark/.gradle/caches/transforms-3/6d3a4ce527c017636ac813e6ab9bcc22/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/livingspark/.gradle/caches/transforms-3/9395ce6c9e4d178d1eadca108d61be72/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/livingspark/.gradle/caches/transforms-3/9395ce6c9e4d178d1eadca108d61be72/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:11:9-43
+	android:icon
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:13:9-43
+	android:name
+		INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:12:9-42
+manifest
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:1:1-58:12
+INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:1:1-58:12
+INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:1:1-58:12
+INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:1:1-58:12
+MERGED from [:connectivity_plus] /Users/livingspark/Downloads/LivingMenuMobile/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-48:12
+MERGED from [:firebase_core] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:google_maps_flutter_android] /Users/livingspark/Downloads/LivingMenuMobile/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/livingspark/Downloads/LivingMenuMobile/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_secure_storage] /Users/livingspark/Downloads/LivingMenuMobile/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-10:12
+MERGED from [:razorpay_flutter] /Users/livingspark/Downloads/LivingMenuMobile/build/razorpay_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-10:12
+MERGED from [:fluttertoast] /Users/livingspark/Downloads/LivingMenuMobile/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:geocoding_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geocoding_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:geolocator_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:mobile_scanner] /Users/livingspark/Downloads/LivingMenuMobile/build/mobile_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-13:12
+MERGED from [:path_provider_android] /Users/livingspark/Downloads/LivingMenuMobile/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler_android] /Users/livingspark/Downloads/LivingMenuMobile/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] /Users/livingspark/Downloads/LivingMenuMobile/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite_android] /Users/livingspark/Downloads/LivingMenuMobile/build/sqflite_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:17:1-66:12
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ab046347b3bf7f60dc900af80e111011/transformed/jetified-firebase-analytics-22.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:17:1-43:12
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/b7046bcc33e191aeabe895edba3dfeec/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.razorpay:checkout:1.6.41] /Users/livingspark/.gradle/caches/transforms-3/c962434ee525498e27b72fc4ce1f7128/transformed/jetified-checkout-1.6.41/AndroidManifest.xml:2:1-7:12
+MERGED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:2:1-81:12
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /Users/livingspark/.gradle/caches/transforms-3/0b7282ad6c6c3d7e294c046a65e589bf/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.camera:camera-core:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/6a85c669ca8e5a5ec61b99e6c3690887/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-camera2:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/401ad965a11fc0260f22edbc819fed36/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-lifecycle:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/940804cd4ee7d5d7dce968a572e09e44/transformed/jetified-camera-lifecycle-1.3.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.preference:preference:1.2.1] /Users/livingspark/.gradle/caches/transforms-3/642afd62d2eacd5efbee0e007c3017e6/transformed/preference-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/f1f8980cb76664c92bb022e562e10a49/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/99c558fd6572534858e2aeca23c76873/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/82bb974acf0cba9beb7708b19ad89085/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/4feedd9958428a825358c3bde2515b54/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/61b72311034675b8b81abd2033b5a163/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] /Users/livingspark/.gradle/caches/transforms-3/71bf498461784b958f5e8fd4df9c30ff/transformed/jetified-barcode-scanning-17.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/75b3afcf7fd2dfaab832beb7e085c1ab/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] /Users/livingspark/.gradle/caches/transforms-3/f0d7dffbda8caeb2aacf31314963e342/transformed/jetified-barcode-scanning-common-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/livingspark/.gradle/caches/transforms-3/d1c7090ef713c122225776495c2321e0/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/3834de7f5407a8a04e7e057ab432efa0/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-wallet:18.1.3] /Users/livingspark/.gradle/caches/transforms-3/b7432e557f674270b5e13c027438d832/transformed/jetified-play-services-wallet-18.1.3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/a585d695a1f6763edb743043748f71c8/transformed/jetified-play-services-measurement-sdk-22.1.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/livingspark/.gradle/caches/transforms-3/09c6ecd32d59a6bd0a4c21ad70def275/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/livingspark/.gradle/caches/transforms-3/f9af72d3aebc943a4300a1453759a252/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/livingspark/.gradle/caches/transforms-3/945b787bc82090285e8b9d6ce11116da/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f928f0a08440d872da9bad2dfcaac5f5/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/livingspark/.gradle/caches/transforms-3/bf778b19e56f24759a2a9720f774ace9/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/a6388d82acd5de3ca878fc6bb5854681/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/livingspark/.gradle/caches/transforms-3/2c67b6ce7ea0e376f5a856679c97aa69/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/68870dc27a48ef0316a6c48db0226d7f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/d06c0acd06e8d6e1dce00012f9e1d0da/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f42035582339a3906c1d70b5316c91f2/transformed/jetified-play-services-measurement-base-22.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/livingspark/.gradle/caches/transforms-3/bd8813ff6a7ddec3692104e52c4aae0b/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] /Users/livingspark/.gradle/caches/transforms-3/496e7be98104388fc74e6d681d42d2f6/transformed/jetified-vision-interfaces-16.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/livingspark/.gradle/caches/transforms-3/76b0ac2c737bfe9b10eb51b8dbbc9621/transformed/jetified-play-services-auth-base-18.0.10/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/livingspark/.gradle/caches/transforms-3/0d9fd0cceaa616b92d063fd83c904022/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] /Users/livingspark/.gradle/caches/transforms-3/7c75a9378b56175f2c5dca330340be72/transformed/jetified-play-services-identity-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/livingspark/.gradle/caches/transforms-3/c4cf85bdbe032577819b291cab511240/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/842dfd44f23f85679f386babc5c6d2ca/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/19d47bdd8c6250325766856b9e9b5c08/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] /Users/livingspark/.gradle/caches/transforms-3/a5c771397d24e118521a674b0777f924/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/livingspark/.gradle/caches/transforms-3/048c306ff45570a298694364b4f153e5/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/livingspark/.gradle/caches/transforms-3/326ee5f623ae43df90e4ad3f0bd9864c/transformed/jetified-activity-ktx-1.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.1] /Users/livingspark/.gradle/caches/transforms-3/d6f00e7a11df974b64ecf4c79ea221d9/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/d1b9211422864aaf88fad7ddda061a11/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/17f4d33d0a0a45f5ad80fb430eba831b/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/7de4099636288aa4cf9ef02aefc2d5c9/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/db8732bfa320e02be678791ec68c32f2/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/9d8debe9c5e2bd1dfb6c2140aeaaaab0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/55aabb074c48fbda595e087e55bd93d3/transformed/loader-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/0e118e964e98545433ddd498440d1ebe/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/6c5cedaf4e4e8d11eebf0d9dc21064ed/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/a5276eadce07cf609d47d3a257009665/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/livingspark/.gradle/caches/transforms-3/cf646e3e47ea62a52a4160e9c54f45a0/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/livingspark/.gradle/caches/transforms-3/f187479461cac835ccfe78b6d24b1afc/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/8915e9f85064a07ffdd05a9490c5c373/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/livingspark/.gradle/caches/transforms-3/3497cd5283761f633d34a918761a2d8a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/77745b42a8e21cd488b5d5bbb56ed80e/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/bc9be3981d76db48057938c7aa853aec/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/039cf127a75cf1aedeafa1ce9abab12d/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/2ac7b7eb0d3c1ad3023821404982e09f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/64248f95e975ec54b742e5ee8ec257c2/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/4c8095077c0e2390ad825b6aeddf05d6/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/livingspark/.gradle/caches/transforms-3/00875de9b01a855ea54028bc32a64f70/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/237b6f3db5f20bc1a85aee803fc7ab0c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/2c04e29ae0c23626cb666d277b89128d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/e41fd79baaa16f95cfef457c57b0beb0/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/aeab1db95c531f572f041908789de2e0/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/595679c9c0bc39fc232ede1c497724a4/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/69612ac5c8748cec822e48caa4c4dcf9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/livingspark/.gradle/caches/transforms-3/71b3f7a92f6e11186a9397bfede3ec7f/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/livingspark/.gradle/caches/transforms-3/77bec02609748fc3c32ffa535d6178c6/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/8cc694c600dd80e6ab47b6c9cff22b8c/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /Users/livingspark/.gradle/caches/transforms-3/4c4737d52c1b12a9fc685f215dedcb8e/transformed/jetified-security-crypto-1.1.0-alpha06/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/livingspark/.gradle/caches/transforms-3/8b14a6c5f2b74d25d02b1b5764f61a44/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/9e3696320a0cb468a3a3c86245453f53/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/8c1fbd98f0f0d2e35f37bfbc16369810/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/fc5c2d855b4ad7ab5816bd9406a6320a/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:15:1-31:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/fcbcd00d95813a7905a5d6804834321a/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/2d5556e79c80808fddf29a82caea825a/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /Users/livingspark/.gradle/caches/transforms-3/1ab81737fa899f1dd0366fd1f944debf/transformed/jetified-transport-api-3.1.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/livingspark/.gradle/caches/transforms-3/56bdc9ead670ae66f8bd8f44be268a7d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/60f62d7a529d3942d4b90343ebdcf234/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/livingspark/.gradle/caches/transforms-3/43f0922c6507ad33f3655eb1de1923d0/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/livingspark/.gradle/caches/transforms-3/7609e1f74c3733f1174c617d02ee8a73/transformed/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/11de46c0b87c997bb7ce653403ec9f6c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/40fa2de2a565bc3136fa034848a532e6/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/2fd4a30cf2e48ffae8cff69a05b15946/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/e33c2b865f86441fb080240c7bdfcd56/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/livingspark/.gradle/caches/transforms-3/c9454c6239c5beed75c7c77c4ecb883f/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/livingspark/.gradle/caches/transforms-3/4d69ff2b389788e0501aaa9634326d1b/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/livingspark/.gradle/caches/transforms-3/6d3a4ce527c017636ac813e6ab9bcc22/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/livingspark/.gradle/caches/transforms-3/a93fd48b4bf2fbca824db503de74d2be/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/livingspark/.gradle/caches/transforms-3/9395ce6c9e4d178d1eadca108d61be72/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:1:1-58:12
+INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:1:1-58:12
+INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:1:1-58:12
+	package
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:2:5-49
+		INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:1:1-58:12
+		INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:1:1-58:12
+		INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-67
+MERGED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:8:5-67
+MERGED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/livingspark/.gradle/caches/transforms-3/945b787bc82090285e8b9d6ce11116da/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/livingspark/.gradle/caches/transforms-3/945b787bc82090285e8b9d6ce11116da/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f928f0a08440d872da9bad2dfcaac5f5/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f928f0a08440d872da9bad2dfcaac5f5/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/d06c0acd06e8d6e1dce00012f9e1d0da/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/d06c0acd06e8d6e1dce00012f9e1d0da/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/fcbcd00d95813a7905a5d6804834321a/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/fcbcd00d95813a7905a5d6804834321a/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:3:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:4:5-79
+MERGED from [:connectivity_plus] /Users/livingspark/Downloads/LivingMenuMobile/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-79
+MERGED from [:connectivity_plus] /Users/livingspark/Downloads/LivingMenuMobile/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-79
+MERGED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/livingspark/.gradle/caches/transforms-3/945b787bc82090285e8b9d6ce11116da/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/livingspark/.gradle/caches/transforms-3/945b787bc82090285e8b9d6ce11116da/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f928f0a08440d872da9bad2dfcaac5f5/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f928f0a08440d872da9bad2dfcaac5f5/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/d06c0acd06e8d6e1dce00012f9e1d0da/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/d06c0acd06e8d6e1dce00012f9e1d0da/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/fcbcd00d95813a7905a5d6804834321a/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/fcbcd00d95813a7905a5d6804834321a/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:4:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:5:5-65
+MERGED from [:mobile_scanner] /Users/livingspark/Downloads/LivingMenuMobile/build/mobile_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-65
+MERGED from [:mobile_scanner] /Users/livingspark/Downloads/LivingMenuMobile/build/mobile_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:8:5-84
+	android:name
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:8:22-82
+queries
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:52:5-57:15
+MERGED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:10:5-39:15
+MERGED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:10:5-39:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:53:9-56:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:54:13-72
+	android:name
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:54:21-70
+data
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:55:13-50
+	android:mimeType
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:55:19-48
+uses-sdk
+INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+MERGED from [:connectivity_plus] /Users/livingspark/Downloads/LivingMenuMobile/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity_plus] /Users/livingspark/Downloads/LivingMenuMobile/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter_android] /Users/livingspark/Downloads/LivingMenuMobile/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter_android] /Users/livingspark/Downloads/LivingMenuMobile/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/livingspark/Downloads/LivingMenuMobile/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/livingspark/Downloads/LivingMenuMobile/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_secure_storage] /Users/livingspark/Downloads/LivingMenuMobile/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:53
+MERGED from [:flutter_secure_storage] /Users/livingspark/Downloads/LivingMenuMobile/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:53
+MERGED from [:razorpay_flutter] /Users/livingspark/Downloads/LivingMenuMobile/build/razorpay_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:razorpay_flutter] /Users/livingspark/Downloads/LivingMenuMobile/build/razorpay_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/livingspark/Downloads/LivingMenuMobile/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/livingspark/Downloads/LivingMenuMobile/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:geocoding_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geocoding_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:geocoding_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geocoding_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:mobile_scanner] /Users/livingspark/Downloads/LivingMenuMobile/build/mobile_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:mobile_scanner] /Users/livingspark/Downloads/LivingMenuMobile/build/mobile_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/livingspark/Downloads/LivingMenuMobile/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/livingspark/Downloads/LivingMenuMobile/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/livingspark/Downloads/LivingMenuMobile/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/livingspark/Downloads/LivingMenuMobile/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/livingspark/Downloads/LivingMenuMobile/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/livingspark/Downloads/LivingMenuMobile/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] /Users/livingspark/Downloads/LivingMenuMobile/build/sqflite_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] /Users/livingspark/Downloads/LivingMenuMobile/build/sqflite_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ab046347b3bf7f60dc900af80e111011/transformed/jetified-firebase-analytics-22.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/ab046347b3bf7f60dc900af80e111011/transformed/jetified-firebase-analytics-22.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/b7046bcc33e191aeabe895edba3dfeec/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/b7046bcc33e191aeabe895edba3dfeec/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.razorpay:checkout:1.6.41] /Users/livingspark/.gradle/caches/transforms-3/c962434ee525498e27b72fc4ce1f7128/transformed/jetified-checkout-1.6.41/AndroidManifest.xml:5:5-44
+MERGED from [com.razorpay:checkout:1.6.41] /Users/livingspark/.gradle/caches/transforms-3/c962434ee525498e27b72fc4ce1f7128/transformed/jetified-checkout-1.6.41/AndroidManifest.xml:5:5-44
+MERGED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:6:5-44
+MERGED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /Users/livingspark/.gradle/caches/transforms-3/0b7282ad6c6c3d7e294c046a65e589bf/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /Users/livingspark/.gradle/caches/transforms-3/0b7282ad6c6c3d7e294c046a65e589bf/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-core:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/6a85c669ca8e5a5ec61b99e6c3690887/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/6a85c669ca8e5a5ec61b99e6c3690887/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/401ad965a11fc0260f22edbc819fed36/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/401ad965a11fc0260f22edbc819fed36/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/940804cd4ee7d5d7dce968a572e09e44/transformed/jetified-camera-lifecycle-1.3.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/940804cd4ee7d5d7dce968a572e09e44/transformed/jetified-camera-lifecycle-1.3.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.preference:preference:1.2.1] /Users/livingspark/.gradle/caches/transforms-3/642afd62d2eacd5efbee0e007c3017e6/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] /Users/livingspark/.gradle/caches/transforms-3/642afd62d2eacd5efbee0e007c3017e6/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/f1f8980cb76664c92bb022e562e10a49/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/f1f8980cb76664c92bb022e562e10a49/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/99c558fd6572534858e2aeca23c76873/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/99c558fd6572534858e2aeca23c76873/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/82bb974acf0cba9beb7708b19ad89085/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/82bb974acf0cba9beb7708b19ad89085/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/4feedd9958428a825358c3bde2515b54/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/4feedd9958428a825358c3bde2515b54/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/61b72311034675b8b81abd2033b5a163/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/61b72311034675b8b81abd2033b5a163/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] /Users/livingspark/.gradle/caches/transforms-3/71bf498461784b958f5e8fd4df9c30ff/transformed/jetified-barcode-scanning-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] /Users/livingspark/.gradle/caches/transforms-3/71bf498461784b958f5e8fd4df9c30ff/transformed/jetified-barcode-scanning-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/75b3afcf7fd2dfaab832beb7e085c1ab/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/75b3afcf7fd2dfaab832beb7e085c1ab/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] /Users/livingspark/.gradle/caches/transforms-3/f0d7dffbda8caeb2aacf31314963e342/transformed/jetified-barcode-scanning-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] /Users/livingspark/.gradle/caches/transforms-3/f0d7dffbda8caeb2aacf31314963e342/transformed/jetified-barcode-scanning-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/livingspark/.gradle/caches/transforms-3/d1c7090ef713c122225776495c2321e0/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/livingspark/.gradle/caches/transforms-3/d1c7090ef713c122225776495c2321e0/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:6:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/3834de7f5407a8a04e7e057ab432efa0/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/3834de7f5407a8a04e7e057ab432efa0/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-wallet:18.1.3] /Users/livingspark/.gradle/caches/transforms-3/b7432e557f674270b5e13c027438d832/transformed/jetified-play-services-wallet-18.1.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:18.1.3] /Users/livingspark/.gradle/caches/transforms-3/b7432e557f674270b5e13c027438d832/transformed/jetified-play-services-wallet-18.1.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/a585d695a1f6763edb743043748f71c8/transformed/jetified-play-services-measurement-sdk-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/a585d695a1f6763edb743043748f71c8/transformed/jetified-play-services-measurement-sdk-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/livingspark/.gradle/caches/transforms-3/09c6ecd32d59a6bd0a4c21ad70def275/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/livingspark/.gradle/caches/transforms-3/09c6ecd32d59a6bd0a4c21ad70def275/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/livingspark/.gradle/caches/transforms-3/f9af72d3aebc943a4300a1453759a252/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/livingspark/.gradle/caches/transforms-3/f9af72d3aebc943a4300a1453759a252/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/livingspark/.gradle/caches/transforms-3/945b787bc82090285e8b9d6ce11116da/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/livingspark/.gradle/caches/transforms-3/945b787bc82090285e8b9d6ce11116da/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f928f0a08440d872da9bad2dfcaac5f5/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f928f0a08440d872da9bad2dfcaac5f5/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/livingspark/.gradle/caches/transforms-3/bf778b19e56f24759a2a9720f774ace9/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/livingspark/.gradle/caches/transforms-3/bf778b19e56f24759a2a9720f774ace9/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/a6388d82acd5de3ca878fc6bb5854681/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/a6388d82acd5de3ca878fc6bb5854681/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/livingspark/.gradle/caches/transforms-3/2c67b6ce7ea0e376f5a856679c97aa69/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/livingspark/.gradle/caches/transforms-3/2c67b6ce7ea0e376f5a856679c97aa69/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/68870dc27a48ef0316a6c48db0226d7f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/68870dc27a48ef0316a6c48db0226d7f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/d06c0acd06e8d6e1dce00012f9e1d0da/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/d06c0acd06e8d6e1dce00012f9e1d0da/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f42035582339a3906c1d70b5316c91f2/transformed/jetified-play-services-measurement-base-22.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f42035582339a3906c1d70b5316c91f2/transformed/jetified-play-services-measurement-base-22.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/livingspark/.gradle/caches/transforms-3/bd8813ff6a7ddec3692104e52c4aae0b/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/livingspark/.gradle/caches/transforms-3/bd8813ff6a7ddec3692104e52c4aae0b/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] /Users/livingspark/.gradle/caches/transforms-3/496e7be98104388fc74e6d681d42d2f6/transformed/jetified-vision-interfaces-16.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] /Users/livingspark/.gradle/caches/transforms-3/496e7be98104388fc74e6d681d42d2f6/transformed/jetified-vision-interfaces-16.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/livingspark/.gradle/caches/transforms-3/76b0ac2c737bfe9b10eb51b8dbbc9621/transformed/jetified-play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/livingspark/.gradle/caches/transforms-3/76b0ac2c737bfe9b10eb51b8dbbc9621/transformed/jetified-play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/livingspark/.gradle/caches/transforms-3/0d9fd0cceaa616b92d063fd83c904022/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/livingspark/.gradle/caches/transforms-3/0d9fd0cceaa616b92d063fd83c904022/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] /Users/livingspark/.gradle/caches/transforms-3/7c75a9378b56175f2c5dca330340be72/transformed/jetified-play-services-identity-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] /Users/livingspark/.gradle/caches/transforms-3/7c75a9378b56175f2c5dca330340be72/transformed/jetified-play-services-identity-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/livingspark/.gradle/caches/transforms-3/c4cf85bdbe032577819b291cab511240/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/livingspark/.gradle/caches/transforms-3/c4cf85bdbe032577819b291cab511240/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/842dfd44f23f85679f386babc5c6d2ca/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/842dfd44f23f85679f386babc5c6d2ca/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/19d47bdd8c6250325766856b9e9b5c08/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/19d47bdd8c6250325766856b9e9b5c08/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] /Users/livingspark/.gradle/caches/transforms-3/a5c771397d24e118521a674b0777f924/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] /Users/livingspark/.gradle/caches/transforms-3/a5c771397d24e118521a674b0777f924/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/livingspark/.gradle/caches/transforms-3/048c306ff45570a298694364b4f153e5/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/livingspark/.gradle/caches/transforms-3/048c306ff45570a298694364b4f153e5/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/livingspark/.gradle/caches/transforms-3/326ee5f623ae43df90e4ad3f0bd9864c/transformed/jetified-activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/livingspark/.gradle/caches/transforms-3/326ee5f623ae43df90e4ad3f0bd9864c/transformed/jetified-activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/livingspark/.gradle/caches/transforms-3/d6f00e7a11df974b64ecf4c79ea221d9/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/livingspark/.gradle/caches/transforms-3/d6f00e7a11df974b64ecf4c79ea221d9/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/d1b9211422864aaf88fad7ddda061a11/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/d1b9211422864aaf88fad7ddda061a11/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/17f4d33d0a0a45f5ad80fb430eba831b/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/17f4d33d0a0a45f5ad80fb430eba831b/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/7de4099636288aa4cf9ef02aefc2d5c9/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/7de4099636288aa4cf9ef02aefc2d5c9/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/db8732bfa320e02be678791ec68c32f2/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/db8732bfa320e02be678791ec68c32f2/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/9d8debe9c5e2bd1dfb6c2140aeaaaab0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/9d8debe9c5e2bd1dfb6c2140aeaaaab0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/55aabb074c48fbda595e087e55bd93d3/transformed/loader-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/55aabb074c48fbda595e087e55bd93d3/transformed/loader-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/0e118e964e98545433ddd498440d1ebe/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/0e118e964e98545433ddd498440d1ebe/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/6c5cedaf4e4e8d11eebf0d9dc21064ed/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/6c5cedaf4e4e8d11eebf0d9dc21064ed/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/a5276eadce07cf609d47d3a257009665/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/a5276eadce07cf609d47d3a257009665/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/livingspark/.gradle/caches/transforms-3/cf646e3e47ea62a52a4160e9c54f45a0/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/livingspark/.gradle/caches/transforms-3/cf646e3e47ea62a52a4160e9c54f45a0/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/livingspark/.gradle/caches/transforms-3/f187479461cac835ccfe78b6d24b1afc/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/livingspark/.gradle/caches/transforms-3/f187479461cac835ccfe78b6d24b1afc/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/8915e9f85064a07ffdd05a9490c5c373/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/8915e9f85064a07ffdd05a9490c5c373/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/livingspark/.gradle/caches/transforms-3/3497cd5283761f633d34a918761a2d8a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/livingspark/.gradle/caches/transforms-3/3497cd5283761f633d34a918761a2d8a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/77745b42a8e21cd488b5d5bbb56ed80e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/77745b42a8e21cd488b5d5bbb56ed80e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/bc9be3981d76db48057938c7aa853aec/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/bc9be3981d76db48057938c7aa853aec/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/039cf127a75cf1aedeafa1ce9abab12d/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/039cf127a75cf1aedeafa1ce9abab12d/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/2ac7b7eb0d3c1ad3023821404982e09f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/2ac7b7eb0d3c1ad3023821404982e09f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/64248f95e975ec54b742e5ee8ec257c2/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/64248f95e975ec54b742e5ee8ec257c2/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/4c8095077c0e2390ad825b6aeddf05d6/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/4c8095077c0e2390ad825b6aeddf05d6/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/livingspark/.gradle/caches/transforms-3/00875de9b01a855ea54028bc32a64f70/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/livingspark/.gradle/caches/transforms-3/00875de9b01a855ea54028bc32a64f70/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/237b6f3db5f20bc1a85aee803fc7ab0c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/237b6f3db5f20bc1a85aee803fc7ab0c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/2c04e29ae0c23626cb666d277b89128d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/2c04e29ae0c23626cb666d277b89128d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/e41fd79baaa16f95cfef457c57b0beb0/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/e41fd79baaa16f95cfef457c57b0beb0/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/aeab1db95c531f572f041908789de2e0/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/aeab1db95c531f572f041908789de2e0/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/595679c9c0bc39fc232ede1c497724a4/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/595679c9c0bc39fc232ede1c497724a4/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/69612ac5c8748cec822e48caa4c4dcf9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/69612ac5c8748cec822e48caa4c4dcf9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/livingspark/.gradle/caches/transforms-3/71b3f7a92f6e11186a9397bfede3ec7f/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/livingspark/.gradle/caches/transforms-3/71b3f7a92f6e11186a9397bfede3ec7f/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/livingspark/.gradle/caches/transforms-3/77bec02609748fc3c32ffa535d6178c6/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/livingspark/.gradle/caches/transforms-3/77bec02609748fc3c32ffa535d6178c6/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/8cc694c600dd80e6ab47b6c9cff22b8c/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/livingspark/.gradle/caches/transforms-3/8cc694c600dd80e6ab47b6c9cff22b8c/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /Users/livingspark/.gradle/caches/transforms-3/4c4737d52c1b12a9fc685f215dedcb8e/transformed/jetified-security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /Users/livingspark/.gradle/caches/transforms-3/4c4737d52c1b12a9fc685f215dedcb8e/transformed/jetified-security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/livingspark/.gradle/caches/transforms-3/8b14a6c5f2b74d25d02b1b5764f61a44/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/livingspark/.gradle/caches/transforms-3/8b14a6c5f2b74d25d02b1b5764f61a44/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/9e3696320a0cb468a3a3c86245453f53/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/9e3696320a0cb468a3a3c86245453f53/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/8c1fbd98f0f0d2e35f37bfbc16369810/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/8c1fbd98f0f0d2e35f37bfbc16369810/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/fc5c2d855b4ad7ab5816bd9406a6320a/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/fc5c2d855b4ad7ab5816bd9406a6320a/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/fcbcd00d95813a7905a5d6804834321a/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/fcbcd00d95813a7905a5d6804834321a/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/2d5556e79c80808fddf29a82caea825a/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/2d5556e79c80808fddf29a82caea825a/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /Users/livingspark/.gradle/caches/transforms-3/1ab81737fa899f1dd0366fd1f944debf/transformed/jetified-transport-api-3.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /Users/livingspark/.gradle/caches/transforms-3/1ab81737fa899f1dd0366fd1f944debf/transformed/jetified-transport-api-3.1.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/livingspark/.gradle/caches/transforms-3/56bdc9ead670ae66f8bd8f44be268a7d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/livingspark/.gradle/caches/transforms-3/56bdc9ead670ae66f8bd8f44be268a7d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/60f62d7a529d3942d4b90343ebdcf234/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/60f62d7a529d3942d4b90343ebdcf234/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/livingspark/.gradle/caches/transforms-3/43f0922c6507ad33f3655eb1de1923d0/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/livingspark/.gradle/caches/transforms-3/43f0922c6507ad33f3655eb1de1923d0/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/livingspark/.gradle/caches/transforms-3/7609e1f74c3733f1174c617d02ee8a73/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/livingspark/.gradle/caches/transforms-3/7609e1f74c3733f1174c617d02ee8a73/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/11de46c0b87c997bb7ce653403ec9f6c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/11de46c0b87c997bb7ce653403ec9f6c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/40fa2de2a565bc3136fa034848a532e6/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/40fa2de2a565bc3136fa034848a532e6/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/2fd4a30cf2e48ffae8cff69a05b15946/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/2fd4a30cf2e48ffae8cff69a05b15946/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/e33c2b865f86441fb080240c7bdfcd56/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/livingspark/.gradle/caches/transforms-3/e33c2b865f86441fb080240c7bdfcd56/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/livingspark/.gradle/caches/transforms-3/c9454c6239c5beed75c7c77c4ecb883f/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/livingspark/.gradle/caches/transforms-3/c9454c6239c5beed75c7c77c4ecb883f/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/livingspark/.gradle/caches/transforms-3/4d69ff2b389788e0501aaa9634326d1b/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/livingspark/.gradle/caches/transforms-3/4d69ff2b389788e0501aaa9634326d1b/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/livingspark/.gradle/caches/transforms-3/6d3a4ce527c017636ac813e6ab9bcc22/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/livingspark/.gradle/caches/transforms-3/6d3a4ce527c017636ac813e6ab9bcc22/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/livingspark/.gradle/caches/transforms-3/a93fd48b4bf2fbca824db503de74d2be/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/livingspark/.gradle/caches/transforms-3/a93fd48b4bf2fbca824db503de74d2be/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/livingspark/.gradle/caches/transforms-3/9395ce6c9e4d178d1eadca108d61be72/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/livingspark/.gradle/caches/transforms-3/9395ce6c9e4d178d1eadca108d61be72/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [:flutter_secure_storage] /Users/livingspark/Downloads/LivingMenuMobile/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-50
+	android:targetSdkVersion
+		INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml
+activity#com.livingspark.living_menu_mobile.MainActivity
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:14:9-35:20
+	android:launchMode
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:17:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:20:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:22:13-55
+	android:exported
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:16:13-36
+	android:configChanges
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:19:13-163
+	android:theme
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:18:13-47
+	android:enableOnBackInvokedCallback
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:21:13-55
+	android:name
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:15:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:27:13-30:17
+	android:resource
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:29:15-52
+	android:name
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:28:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:31:13-34:29
+action#android.intent.action.MAIN
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:32:17-68
+	android:name
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:33:17-76
+	android:name
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:33:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:38:9-40:33
+	android:value
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:40:13-30
+	android:name
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:39:13-44
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:42:9-44:71
+	android:value
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:44:13-68
+	android:name
+		ADDED from /Users/livingspark/Downloads/LivingMenuMobile/android/app/src/main/AndroidManifest.xml:43:13-58
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-68
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/livingspark/.gradle/caches/transforms-3/945b787bc82090285e8b9d6ce11116da/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/livingspark/.gradle/caches/transforms-3/945b787bc82090285e8b9d6ce11116da/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f928f0a08440d872da9bad2dfcaac5f5/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f928f0a08440d872da9bad2dfcaac5f5/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/d06c0acd06e8d6e1dce00012f9e1d0da/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/d06c0acd06e8d6e1dce00012f9e1d0da/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-77
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:23:5-77
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-74
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
+ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-17:72
+	android:exported
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+	android:permission
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-69
+	android:name
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-107
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-24:19
+	android:exported
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-97
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-23:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-78
+	android:name
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:25-75
+receiver#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver
+ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-33:20
+	android:exported
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-36
+	android:permission
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-73
+	android:name
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-98
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-32:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-81
+	android:name
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-78
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:35:9-39:19
+MERGED from [:firebase_core] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/b7046bcc33e191aeabe895edba3dfeec/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/b7046bcc33e191aeabe895edba3dfeec/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/fc5c2d855b4ad7ab5816bd9406a6320a/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:22:9-28:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/fc5c2d855b4ad7ab5816bd9406a6320a/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:22:9-28:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:35:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:17-128
+provider#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:41:9-45:38
+	android:authorities
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-88
+	android:exported
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-37
+	android:initOrder
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-35
+	android:name
+		ADDED from [:firebase_messaging] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-102
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/livingspark/Downloads/LivingMenuMobile/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-124
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:56
+	android:enabled
+		ADDED from [:geolocator_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-35
+	android:exported
+		ADDED from [:geolocator_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-53
+	android:name
+		ADDED from [:geolocator_android] /Users/livingspark/Downloads/LivingMenuMobile/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-77
+uses-feature#android.hardware.camera
+ADDED from [:mobile_scanner] /Users/livingspark/Downloads/LivingMenuMobile/build/mobile_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-11:36
+	android:required
+		ADDED from [:mobile_scanner] /Users/livingspark/Downloads/LivingMenuMobile/build/mobile_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-33
+	android:name
+		ADDED from [:mobile_scanner] /Users/livingspark/Downloads/LivingMenuMobile/build/mobile_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-47
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/livingspark/.gradle/caches/transforms-3/945b787bc82090285e8b9d6ce11116da/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/livingspark/.gradle/caches/transforms-3/945b787bc82090285e8b9d6ce11116da/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:29:9-40:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:30:13-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:37:13-39:40
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:39:17-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:38:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:46:9-53:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:49:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:48:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:47:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:57:13-59:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:58:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:60:13-62:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.0] /Users/livingspark/.gradle/caches/transforms-3/d22f1af5c2f85b45e47dd4c4a293c226/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:61:17-119
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f928f0a08440d872da9bad2dfcaac5f5/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f928f0a08440d872da9bad2dfcaac5f5/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/68870dc27a48ef0316a6c48db0226d7f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/68870dc27a48ef0316a6c48db0226d7f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/d06c0acd06e8d6e1dce00012f9e1d0da/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/d06c0acd06e8d6e1dce00012f9e1d0da/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/d06c0acd06e8d6e1dce00012f9e1d0da/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/d06c0acd06e8d6e1dce00012f9e1d0da/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/d06c0acd06e8d6e1dce00012f9e1d0da/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/d06c0acd06e8d6e1dce00012f9e1d0da/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:27:22-79
+property
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:30:9-32:61
+	android:resource
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:31:13-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:37:13-39:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:39:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/fdeb30b06e3f89bf0c6522b302b6a6e2/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:38:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/livingspark/.gradle/caches/transforms-3/06a96a35a7c847855d17bde595f15248/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/b7046bcc33e191aeabe895edba3dfeec/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/b7046bcc33e191aeabe895edba3dfeec/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/b7046bcc33e191aeabe895edba3dfeec/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/livingspark/.gradle/caches/transforms-3/57174bcac281fc449ba3473d02b5cf19/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+intent#action:name:android.intent.action.VIEW+data:mimeType:*/*+data:scheme:*
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:11:9-17:18
+action#android.intent.action.VIEW
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:12:13-65
+	android:name
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:12:21-62
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:host:pay+data:mimeType:*/*+data:scheme:upi
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:18:9-27:18
+category#android.intent.category.BROWSABLE
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:21:13-74
+	android:name
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:21:23-71
+intent#action:name:android.intent.action.MAIN
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:28:9-30:18
+intent#action:name:android.intent.action.SEND+data:mimeType:*/*
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:31:9-35:18
+action#android.intent.action.SEND
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:32:13-65
+	android:name
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:32:21-62
+intent#action:name:rzp.device_token.share
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:36:9-38:18
+action#rzp.device_token.share
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:37:13-61
+	android:name
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:37:21-58
+receiver#com.razorpay.RzpTokenReceiver
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:42:9-49:20
+	android:exported
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:44:13-36
+	tools:ignore
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:45:13-44
+	android:name
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:43:13-57
+intent-filter#action:name:rzp.device_token.share
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:46:13-48:29
+activity#com.razorpay.CheckoutActivity
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:51:9-59:20
+	android:exported
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:54:13-37
+	android:configChanges
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:53:13-83
+	android:theme
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:55:13-49
+	android:name
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:52:13-57
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:56:13-58:29
+provider#androidx.startup.InitializationProvider
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:61:9-69:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/69612ac5c8748cec822e48caa4c4dcf9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/69612ac5c8748cec822e48caa4c4dcf9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/livingspark/.gradle/caches/transforms-3/8b14a6c5f2b74d25d02b1b5764f61a44/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/livingspark/.gradle/caches/transforms-3/8b14a6c5f2b74d25d02b1b5764f61a44/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:65:13-31
+	android:authorities
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:63:13-68
+	android:exported
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:62:13-67
+meta-data#com.razorpay.RazorpayInitializer
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:66:13-68:52
+	android:value
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:68:17-49
+	android:name
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:67:17-64
+activity#com.razorpay.MagicXActivity
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:71:9-74:75
+	android:exported
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:73:13-37
+	android:theme
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:74:13-72
+	android:name
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:72:13-55
+meta-data#com.razorpay.plugin.googlepay_all
+ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:76:9-78:58
+	android:value
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:78:13-55
+	android:name
+		ADDED from [com.razorpay:standard-core:1.6.46] /Users/livingspark/.gradle/caches/transforms-3/56170d8c14cbe423e48610470e91d2aa/transformed/jetified-standard-core-1.6.46/AndroidManifest.xml:77:13-61
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-core:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/6a85c669ca8e5a5ec61b99e6c3690887/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-camera2:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/401ad965a11fc0260f22edbc819fed36/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-camera2:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/401ad965a11fc0260f22edbc819fed36/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:24:9-33:19
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/401ad965a11fc0260f22edbc819fed36/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-core:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/6a85c669ca8e5a5ec61b99e6c3690887/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:31:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-core:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/6a85c669ca8e5a5ec61b99e6c3690887/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:32:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-core:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/6a85c669ca8e5a5ec61b99e6c3690887/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:33:13-75
+	android:name
+		ADDED from [androidx.camera:camera-core:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/6a85c669ca8e5a5ec61b99e6c3690887/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:30:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/401ad965a11fc0260f22edbc819fed36/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/401ad965a11fc0260f22edbc819fed36/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.4] /Users/livingspark/.gradle/caches/transforms-3/401ad965a11fc0260f22edbc819fed36/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:31:17-103
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/4feedd9958428a825358c3bde2515b54/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/4feedd9958428a825358c3bde2515b54/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/4feedd9958428a825358c3bde2515b54/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/4feedd9958428a825358c3bde2515b54/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/4feedd9958428a825358c3bde2515b54/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/livingspark/.gradle/caches/transforms-3/4feedd9958428a825358c3bde2515b54/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/75b3afcf7fd2dfaab832beb7e085c1ab/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/livingspark/.gradle/caches/transforms-3/d1c7090ef713c122225776495c2321e0/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/livingspark/.gradle/caches/transforms-3/d1c7090ef713c122225776495c2321e0/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/75b3afcf7fd2dfaab832beb7e085c1ab/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/75b3afcf7fd2dfaab832beb7e085c1ab/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/75b3afcf7fd2dfaab832beb7e085c1ab/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/75b3afcf7fd2dfaab832beb7e085c1ab/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/livingspark/.gradle/caches/transforms-3/75b3afcf7fd2dfaab832beb7e085c1ab/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/livingspark/.gradle/caches/transforms-3/d1c7090ef713c122225776495c2321e0/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/livingspark/.gradle/caches/transforms-3/d1c7090ef713c122225776495c2321e0/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/livingspark/.gradle/caches/transforms-3/d1c7090ef713c122225776495c2321e0/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/livingspark/.gradle/caches/transforms-3/c6db50dff04ef2c00d7cd09cbd67404b/transformed/jetified-common-18.9.0/AndroidManifest.xml:21:17-120
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/dcaf9ab8f9b5733ccfd172d843fbf2d5/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f928f0a08440d872da9bad2dfcaac5f5/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/f928f0a08440d872da9bad2dfcaac5f5/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/livingspark/.gradle/caches/transforms-3/0e905da5b0460ec99e1e7d4c6d73e6d7/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:40:13-87
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/a6388d82acd5de3ca878fc6bb5854681/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/a6388d82acd5de3ca878fc6bb5854681/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/a6388d82acd5de3ca878fc6bb5854681/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/a6388d82acd5de3ca878fc6bb5854681/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/a6388d82acd5de3ca878fc6bb5854681/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/a6388d82acd5de3ca878fc6bb5854681/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/a6388d82acd5de3ca878fc6bb5854681/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/a6388d82acd5de3ca878fc6bb5854681/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/a6388d82acd5de3ca878fc6bb5854681/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.1.0] /Users/livingspark/.gradle/caches/transforms-3/a6388d82acd5de3ca878fc6bb5854681/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/livingspark/.gradle/caches/transforms-3/c4cf85bdbe032577819b291cab511240/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/livingspark/.gradle/caches/transforms-3/c4cf85bdbe032577819b291cab511240/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/livingspark/.gradle/caches/transforms-3/c4cf85bdbe032577819b291cab511240/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/livingspark/.gradle/caches/transforms-3/c4cf85bdbe032577819b291cab511240/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/livingspark/.gradle/caches/transforms-3/f187479461cac835ccfe78b6d24b1afc/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/livingspark/.gradle/caches/transforms-3/f187479461cac835ccfe78b6d24b1afc/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/livingspark/.gradle/caches/transforms-3/f187479461cac835ccfe78b6d24b1afc/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/livingspark/.gradle/caches/transforms-3/3497cd5283761f633d34a918761a2d8a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/livingspark/.gradle/caches/transforms-3/6d3a4ce527c017636ac813e6ab9bcc22/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/livingspark/.gradle/caches/transforms-3/6d3a4ce527c017636ac813e6ab9bcc22/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/livingspark/.gradle/caches/transforms-3/3497cd5283761f633d34a918761a2d8a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/livingspark/.gradle/caches/transforms-3/3497cd5283761f633d34a918761a2d8a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.livingspark.living_menu_mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.livingspark.living_menu_mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/livingspark/.gradle/caches/transforms-3/dc6bae60572ac378dd67323219b7570e/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/69612ac5c8748cec822e48caa4c4dcf9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/69612ac5c8748cec822e48caa4c4dcf9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/livingspark/.gradle/caches/transforms-3/69612ac5c8748cec822e48caa4c4dcf9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/livingspark/.gradle/caches/transforms-3/681d357cdb3b33deb3b0b8e44550c032/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/fc5c2d855b4ad7ab5816bd9406a6320a/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/fc5c2d855b4ad7ab5816bd9406a6320a/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/livingspark/.gradle/caches/transforms-3/fc5c2d855b4ad7ab5816bd9406a6320a/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:26:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/fcbcd00d95813a7905a5d6804834321a/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/fcbcd00d95813a7905a5d6804834321a/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/fcbcd00d95813a7905a5d6804834321a/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/fcbcd00d95813a7905a5d6804834321a/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/fcbcd00d95813a7905a5d6804834321a/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/fcbcd00d95813a7905a5d6804834321a/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/livingspark/.gradle/caches/transforms-3/911e8fc80e5ad4e42d5c0d70eeea194c/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132

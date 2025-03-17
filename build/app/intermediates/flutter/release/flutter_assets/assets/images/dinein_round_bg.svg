@@ -1,0 +1,19 @@
+<svg width="390" height="390" viewBox="0 0 390 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle opacity="0.7" cx="193.5" cy="193.5" r="193.5" fill="url(#paint0_radial_2662_3616)"/>
+<g opacity="0.5">
+<circle cx="195" cy="195" r="60.25" stroke="#FCCE86" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 10"/>
+<circle opacity="0.9" cx="195" cy="195" r="78.25" stroke="#FCCE86" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 10"/>
+<circle opacity="0.8" cx="195" cy="195" r="94.25" stroke="#FCCE86" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 10"/>
+<circle opacity="0.7" cx="195" cy="195" r="114.25" stroke="#FCCE86" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 10"/>
+<circle opacity="0.6" cx="195" cy="195" r="137.25" stroke="#FCCE86" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 10"/>
+<circle opacity="0.5" cx="195" cy="195" r="157.25" stroke="#FCCE86" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 10"/>
+<circle opacity="0.4" cx="195" cy="195" r="177.25" stroke="#FCCE86" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 10"/>
+<circle opacity="0.3" cx="195" cy="195" r="194.25" stroke="#FCCE86" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 10"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_2662_3616" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(193.5 193.5) rotate(90) scale(193.5)">
+<stop stop-color="#C200C5"/>
+<stop offset="1" stop-color="#C200C5" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

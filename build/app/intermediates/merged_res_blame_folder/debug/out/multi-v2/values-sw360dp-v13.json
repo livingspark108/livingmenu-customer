@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.livingspark.living_menu_mobile.app-mergeDebugResources-56:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/livingspark/.gradle/caches/transforms-3/4c959f4fbe2cb24a5d6994c0293b336e/transformed/preference-1.2.1/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                }
+            ]
+        }
+    ]
+}

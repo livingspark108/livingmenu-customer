@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "829533365188",
+    "project_id": "livingmenu-bb117",
+    "storage_bucket": "livingmenu-bb117.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829533365188:android:e882563d54082183077a91",
+        "android_client_info": {
+          "package_name": "com.livingspark.living_menu_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCurOYw3QmbRayowQmh9oUbQ12zBtqIGNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
